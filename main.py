@@ -1,5 +1,6 @@
 import requests
 import json
+import telebot
 
 bot=telebot.TeleBot('7283469638:AAEjjWdK8x2Gx5uoIuv4y0b2ucXFeyIjSnA')
 API=('65481cf206631d6d7879b371298cd9f4')
@@ -34,4 +35,5 @@ bot.polling(none_stop=True)
 """f'Температура сейчас: {temp}°C,'
                                 f'Ощущается как:{feels_like}°C,'
                                 f'Влажность:{humidity}%,'
+
                                 f'Ветер:{wind_speed}м/с,')"""
